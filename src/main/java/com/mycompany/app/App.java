@@ -7,7 +7,7 @@ public class App {
   
 
   public static String triangulo(int a, int b, int c) {
-    if (a == b) && (b == c) && (a == 1) {
+    if ((a == b) && (b == c) && (a == 1)) {
       return "es un triangulo equilatero";
     }
     return "error no es un triangulo";
